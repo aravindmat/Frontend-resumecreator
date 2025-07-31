@@ -1,0 +1,28 @@
+.headercontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.tab{
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    gap: 48px;
+}
+
+.tab p{
+    font-size: 20px;
+    cursor: pointer;
+    color: #5e5b5b;
+    
+}
+.tab p:hover{
+    text-decoration:overline;
+    color: rgb(10, 10, 10)
+}

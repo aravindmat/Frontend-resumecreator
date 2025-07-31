@@ -1,0 +1,33 @@
+.form2{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+textarea{
+    padding: 24px 16px 24px 16px;
+    border-radius: 10px;
+    border: 1.5px solid #3c3a3a;
+    width: 730px;
+    height: 200px;
+    font-size: 18px;
+    font-family: '-moz-initial';
+    text-align: justify;
+}
+.formbutton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+    flex: 2;
+    gap: 550px;
+}
+
+.formcontent1{
+    border: 3px solid #3c3a3a;
+    border-radius: 8px;
+    padding: 18px;
+
+}

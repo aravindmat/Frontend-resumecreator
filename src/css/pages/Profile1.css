@@ -1,0 +1,42 @@
+input{
+    padding: 24px 16px 24px 16px;
+    border-radius: 10px;
+    border: 1.5px solid #3c3a3a;
+    width: 300px;
+    font-size: 16px;
+}
+
+label{
+    font-size: 18px;
+    color:#3c3a3a;
+    font-weight: bold;
+}
+
+.form1{
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+    gap: 48px;
+    row-gap: 32px;
+    
+}
+
+.profilecontent{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 100%;
+    margin-bottom: 24px;
+    align-items: start;
+}
+.navbar{
+    max-width: 35%;
+    height: 100%;
+}
+.formcontent{
+    max-width: 60%;
+    height: 100%;
+    border: 3px solid #3c3a3a;
+    border-radius: 8px;
+    padding: 18px;
+}
